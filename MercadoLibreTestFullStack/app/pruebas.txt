@@ -1,0 +1,2 @@
+http://localhost:3000/api/items?q=bicicleta
+http://localhost:3000/api/items/MLA1327764052

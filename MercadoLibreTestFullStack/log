@@ -1,0 +1,32 @@
+// Comando por consola cmd en el directorio raiz
+npm init -y
+npm i express axios morgan ejs
+npm i nodemon -D
+
+// Estructura de directorios y archivos del proyecto
+app/
+    public/
+        css/
+            styles.scss
+        img/
+            mercado-libre-logo.png
+        js/
+    views/
+        partials/
+           head.cjs
+           searchBar.cjs
+           navBar.cjs
+           footer.cjs 
+        index.cjs
+        productDetail.cjs
+        searchResult.cjs
+    routes/
+        apiRoutes.js
+        webRoutes.js
+    controllers/
+        apiController.js
+        webController.js
+    models/
+    app.cjs
+node_modules/
+package.json
